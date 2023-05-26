@@ -1,3 +1,9 @@
+## Update
+### 26/05/2023
+- Capture and display confidence scores on screen (`deepstream_test1_rtsp_in_rtsp_out_getconf.py`)
+- Add custom model configuration file (YOLOv7) dstest1_pgie_yolov7_config.txt
+
+---
 ################################################################################
 # SPDX-FileCopyrightText: Copyright (c) 2021 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
