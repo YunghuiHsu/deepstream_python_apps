@@ -1,7 +1,17 @@
 ## Update
-### 26/05/2023
+### 05/2023
 - Capture and display confidence scores on screen (`deepstream_test1_rtsp_in_rtsp_out_getconf.py`)
 - Add custom model configuration file (YOLOv7) dstest1_pgie_yolov7_config.txt
+
+Usage Example:
+
+1) NVInfer
+```
+python3 deepstream_test1_rtsp_in_rtsp_out_getconf.py \ 
+       -i  file:///opt/nvidia/deepstream/deepstream/samples/streams/sample_720p.h264  \
+           file:///opt/nvidia/deepstream/deepstream/samples/streams/sample_qHD.mp4 \   
+       -config dstest1_pgie_yolov7_config.txt  
+```
 
 ---
 ################################################################################
